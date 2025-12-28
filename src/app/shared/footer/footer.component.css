@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.d_pp{
+    background-color: #0f0a2f;
+    height: 400px;
+    width: 1225px;
+}
+.logo_foot{
+    color: #e7e7e7;
+    font-size: 20px;
+    font-family: Palatino, URW Palladio L, serif;
+}
+.contact_foot{
+    color:#e7e7e7;
+    display: flex;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: Palatino, URW Palladio L, serif;
+}
+.adr_foot{
+    
+    color:#e7e7e7;
+    font-family: Palatino, URW Palladio L, serif;
+    margin-left: 400px;
+    font-size: 17px;
+}
+.div_adr{
+    margin-bottom: ;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--text-muted);
+    transition: fill 0.3s ease;
+    color: #e7e7e7;
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav_links {
+  background-color: #0f0a2f;
+  padding: 0px;
+  display: flex;       /* makes children align in a row by default */
+  gap: 500px;
+  height: 60px;
+  }
+.ul_links{
+  color: #e7e7e7;
+  font-size: 20px;
+  margin-top: 15px;
+  display: flex;
+  gap: 30px;
+}
+.logo{
+  color: #e7e7e7;
+  margin-top: 5px;
+  margin-left: 30px;
+  margin-top: 10;
+  font-size: 40px;
+}
+.a_nav:visited{
+  color: #e7e7e7;
+}
+.contact_nav{
+  color: #e7e7e7;
+  margin-top: 15px;
+}
+.d1_nav{
+  display: flex;
+  gap: 100px;
+}
