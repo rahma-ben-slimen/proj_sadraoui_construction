@@ -7,6 +7,7 @@
     background-color: #0f0a2f;
     height: 400px;
     width: 1225px;
+    display: flex;
 }
 .logo_foot{
     color: #e7e7e7;
@@ -17,23 +18,43 @@
     color:#e7e7e7;
     display: flex;
     margin-top: 100px;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Palatino, URW Palladio L, serif;
 }
 .adr_foot{
-    
     color:#e7e7e7;
     font-family: Palatino, URW Palladio L, serif;
-    margin-left: 400px;
-    font-size: 17px;
+    margin-left: 200px;
+    font-size: 20px;
 }
 .div_adr{
-    margin-bottom: ;
+    margin-top: 100px;
+    
 }
 .icon {
     width: 20px;
     height: 20px;
-    fill: var(--text-muted);
+    fill: #e7e7e7;
     transition: fill 0.3s ease;
+    color: #e7e7e7;
+}
+.div_call{
+    margin-top: 100px;
+    margin-left: 150px;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.div_mail{
+    margin-top: 25px;
+    margin-left: 150px;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+#num_tel{
+    color: #e7e7e7;
+}
+#adr_mail{
     color: #e7e7e7;
 }
