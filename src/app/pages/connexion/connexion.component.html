@@ -1,0 +1,114 @@
+<div class="d1">
+  <div class="mar">
+    <!-- login FORM -->
+    <div class="form_box active" id="login_form">
+      <h1 class="d1_h1">login</h1>
+      <form method="post">
+        <div>
+          <br />
+          <label for="" class="lab_nom">Adresse E-mail</label> <br />
+          <div class="intp">
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Adresse E-mail"
+              required
+            />
+          </div>
+        </div>
+        <div>
+          <br />
+          <label for="">Mot de passe</label> <br />
+          <div class="intp">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Mot de passe"
+              required
+            />
+          </div>
+        </div>
+        <button type="submit">login</button>
+      </form>
+      <p
+        class="p_d1"
+        onclick="
+        document.getElementById('login_form').classList.remove('active');
+        document.getElementById('register_form').classList.add('active');
+      "
+      >
+        dont have an acount? <span class="link-text">register</span>
+      </p>
+    </div>
+
+    <!-- REGISTER FORM -->
+    <div class="form_box" id="register_form">
+      <form method="post">
+        <h1 class="d1_h1">register</h1>
+        <br /><br />
+        <label for="">nom et prenom</label>
+        <div class="intp">
+          <input
+            type="text"
+            name="nom"
+            id="prenom"
+            required
+            placeholder="prenom"
+          />
+        </div>
+        <br />
+        <label for="">telephone</label> <br />
+        <div class="intp">
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="numero telephone"
+          />
+        </div>
+        <div>
+          <br />
+          <label for="" class="lab_nom">Adresse E-mail</label> <br />
+          <div class="intp">
+            <input type="email" name="" id="" placeholder="email" required />
+          </div>
+        </div>
+        <div>
+          <br />
+          <label for="">Mot de passe</label> <br />
+          <div class="intp">
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="password"
+              required
+            />
+          </div>
+        </div>
+        <br />
+        <div class="intp">
+          <select name="select" id="select" required>
+            <option value="">--tes qui--</option>
+            <option value="admin">admin</option>
+            <option value="client">client</option>
+          </select>
+        </div>
+        <button type="submit">register</button>
+      </form>
+
+      <!-- LINK IS OUTSIDE THE FORM TO PREVENT RELOADING -->
+      <p
+        class="p_d1"
+        onclick="
+        document.getElementById('register_form').classList.remove('active');
+        document.getElementById('login_form').classList.add('active');
+      "
+      >
+        you already have an acount? <span class="link-text">login</span>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+.d1 {
+    background-color: #d1e5f4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+  }
+.mar {
+    padding-top: 40px;
+  }
+.form_box {
+    background-color: #b8b7fd42;
+    display: none; /* Hidden by default */
+    margin-left: 30%;
+    border-radius: 2.5%;
+    box-shadow: 0 20px 25px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 40px;
+  }
+  .form_box.active {
+    display: block !important; 
+}
+#login_form {
+    width: 500px;
+    height: 470px;
+  }
+  #register_form {
+    width: 500px;
+    height: 680px;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+  .d1_h1 {
+    color: #550816;
+    font-size: 50px;
+    padding-top: 9%;
+    text-align: center;
+  }
+  label {
+    color: #55081641;
+    font-size: 16px;
+    margin-left: 114px;
+  }
+  input, select {
+    margin-top: 7px;
+    font-size: 15px;
+    background-color: #36060f22;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 300px;
+    height: 38px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  .intp {
+    text-align: center;
+  }
+  button {
+    margin-top: 25px;
+    font-size: 25px;
+    width: 300px;
+    margin-left: 100px;
+    background-color: #550816;
+    border: none;
+    border-radius: 20px;
+    color: #ddd7fc;
+    cursor: pointer;
+    height: 40px;
+  }
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  .p_d1 {
+    color: #550816;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer; 
+  }
+  .link-text {
+    font-weight: bold;
+    text-decoration: underline;
+  }

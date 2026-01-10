@@ -9,6 +9,7 @@
   display: flex;       /* makes children align in a row by default */
   gap: 500px;
   height: 60px;
+  width: 1245px;
   }
 .ul_links{
   color: #e7e7e7;
